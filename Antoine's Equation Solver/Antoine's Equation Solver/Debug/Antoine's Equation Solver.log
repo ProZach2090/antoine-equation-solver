@@ -1,11 +1,22 @@
-﻿  Antoine's Equation Solver.cpp
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(27): warning C4018: '<': signed/unsigned mismatch
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(21): warning C4101: 'input': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'a': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'max': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'b': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'min': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'c': unreferenced local variable
-c:\users\user\documents\visual studio 2015\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(144): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Antoine's Equation Solver.vcxproj -> C:\Users\User\documents\visual studio 2015\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.exe
-  Antoine's Equation Solver.vcxproj -> C:\Users\User\documents\visual studio 2015\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.pdb (Full PDB)
+﻿Build started 2018-02-02 8:37:44 AM.
+     1>Project "C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Antoine's Equation Solver\Antoine's Equation Solver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Antoine's Equation Solver.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Antoine's Equation Solver.cpp"
+         Antoine's Equation Solver.cpp
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(19): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(19): warning C4101: 'min' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(20): warning C4101: 'input' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(19): warning C4101: 'b' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(19): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(19): warning C4101: 'max' : unreferenced local variable
+     1>c:\users\laptop_z\documents\visual studio 2012\projects\antoine's equation solver\antoine's equation solver\antoine's equation solver.cpp(150): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.lib" /MACHINE:X86 "Debug\Antoine's Equation Solver.obj"
+         Debug\stdafx.obj
+         Antoine's Equation Solver.vcxproj -> C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Debug\Antoine's Equation Solver.exe
+     1>Done Building Project "C:\Users\Laptop_Z\Documents\Visual Studio 2012\Projects\Antoine's Equation Solver\Antoine's Equation Solver\Antoine's Equation Solver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.20

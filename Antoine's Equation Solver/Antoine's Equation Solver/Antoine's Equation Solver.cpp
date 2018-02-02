@@ -21,14 +21,18 @@ int main()
 
 	while (true)
 	{
-		// Get input from user
+		// [Input]: Recieves from user
 		cout << "Please enter the element name of the vapor pressure. Or enter 'terminate' to exit the program\nInput: ";
 		getline(cin, element);
 		for (int i = 0; i < element.length(); i++) element[i] = tolower(element[i]);
 		// Terminate the program when the user types in "terminate"
 		if (element.compare("terminate") == 0) { break; }
+
+		// [Processing]: Determines if program must update database or perform a calculation
 		findConstants(element);
 		cin.ignore();// Ignoring any extra input
+
+		// [Output]: Either outputs requested information or notifies user that database has been updated
 	}
 	system("pause");
     return 0;
@@ -178,7 +182,7 @@ void output(char option, string matches, int numOfMatches)
 				}
 				else max = INT_MIN;
 			}
-			cout << a << " " << b << " " << c << endl;
+			
 			if (max <= min)// Error checking
 			{
 				char input;
@@ -225,8 +229,9 @@ void addEntry()
 		cin.ignore();
 		cout << "Invalid option. Please try again. (Make sure all constants are bigger than 0)\nInput: ";
 	}
+
 	// Overwriting the file with new information
-	dataStr += to_string(min) + "," + to_string(max) + "," + to_string(a) + "," + to_string(b) + "," + to_string(c);
+	dataStr += to_string(min) + "," + to_string(max) + "," + to_string(a) + "," + to_string(b) + "," + to_string(c) + "\n";
 	dataAEC_UPDATED.open("Constants.txt");
 	dataAEC_UPDATED << dataStr;
 	dataAEC_UPDATED.close();

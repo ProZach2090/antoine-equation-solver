@@ -38,8 +38,3 @@ AppWizard uses "TODO:" comments to indicate parts of the source code you
 should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
-Author's notes:
-
-As much as I would like to say this program is near error-proof, the errors are quite noticeable.
-For the most part this program was created to refresh and further develop my capabilities with C++.
-Fair warning, you start with no text file so you may have to input a lot of information.
